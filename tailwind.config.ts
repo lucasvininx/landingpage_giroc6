@@ -18,7 +18,7 @@ export default {
       'second-gray': '4E4B59',
       'opacity-gray': 'rgba(100, 80, 57, 0.1',
       'bg-black': '#09090b'
-     }
+     },
     },
   },
   plugins: [],

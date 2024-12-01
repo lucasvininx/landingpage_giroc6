@@ -1,7 +1,6 @@
 import Image from "next/image"
 
-import Logo from '@/src/assets/logo.svg';
-import Arrow from '@/src/assets/arrow-down.svg';
+import Logo from '@/assets/logo.svg'
 
 export function Header() {
     return (
@@ -13,17 +12,6 @@ export function Header() {
                         src={Logo}
                         alt="Logo"
                         />
-                        <ul>
-                            <li>
-                                <button>
-                                    <span>Para você</span>
-                                    <Image
-                                    src={Arrow}
-                                    alt="Arrow"
-                                    />
-                                </button>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
